@@ -10,6 +10,7 @@ using CST356_Week_5_Lab.Data.Entities;
 
 namespace DylanAppApi.Controllers
 {
+    [RoutePrefix("api/pets")]
     public class PetsController : ApiController
     {
         private IAppRepository _dataRepository;
